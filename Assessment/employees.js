@@ -117,7 +117,7 @@ class Manager extends Employee {
     }
 
     addEmployee(emp) {
-        this.employees = emp
+         emp = this.employees;
     }
 }
 
